@@ -1,0 +1,43 @@
+* {
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  box-sizing: border-box;
+}
+:after,
+:before {
+  box-sizing: inherit;
+}
+body {
+  background-color: #fff;
+}
+body,
+button,
+dd,
+dl,
+dt,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+input,
+label,
+li,
+ol,
+p,
+textarea,
+ul {
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: none;
+}
+a {
+  text-decoration: none;
+}
+a:-webkit-any-link {
+  color: #666;
+}

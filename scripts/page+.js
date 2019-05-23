@@ -23,7 +23,7 @@ if (pageId) {
 }
 
 function makeTemplate (name) {
-  let isName = /^([a-z])+(-[a-z]+)?$/.test(name)
+  let isName = /^\w+(-\w+)*$/.test(name)
   if (!isName) {
     console.warn('页面id 格式不正确: ' + name + '， 请检查! eg: login news-list')
     return

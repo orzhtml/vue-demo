@@ -5,12 +5,15 @@
 </template>
 
 <script>
+import { syAssetKnds } from './syAssetKnds'
+
 export default {
   data () {
     return {}
   },
   created () {
-    this.fetchData()
+    // this.fetchData()
+    console.log('syAssetKnds: ', syAssetKnds)
   },
   methods: {
     async fetchData (params = {}) {

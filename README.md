@@ -71,3 +71,13 @@
 ## 修改接口服务地址
   - 在 vue.config.js 里面修改 devServer 的 proxy
   - 在 constants 修改对应的 hosts 地址 和 环境
+
+## 打包
+  - 在根目录输入命令
+
+```
+  yarn build
+  // 根据提示执行
+  // or 不选环境
+  // yarn vbuild
+```

@@ -1,6 +1,6 @@
 const path = require('path')
 const fs = require('fs')
-const pxtorem = require('postcss-pxtorem')
+// const pxtorem = require('postcss-pxtorem')
 let pagesPath = path.resolve(__dirname, './src/pages')
 let pagesDir = fs.readdirSync(pagesPath)
 // 按目录结构配置多入口
@@ -40,12 +40,12 @@ module.exports = {
       },
       postcss: {
         plugins: [
-          pxtorem({
-            rootValue: 75,
-            unitPrecision: 5,
-            propList: ['*'],
-            selectorBlackList: ['van-']
-          })
+          // pxtorem({
+          //   rootValue: 75,
+          //   unitPrecision: 5,
+          //   propList: ['*'],
+          //   selectorBlackList: ['van-']
+          // })
         ]
       }
     }

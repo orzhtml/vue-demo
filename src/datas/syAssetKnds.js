@@ -1,3 +1,727 @@
+const syBrandKnds = [
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '01',
+      'assetKndNm': '吉利1',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': null,
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '02',
+      'assetKndNm': '奇虎',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': null,
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '03',
+      'assetKndNm': '吉利',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': null,
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '04',
+      'assetKndNm': 'aaa1',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': null,
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '05',
+      'assetKndNm': 'eee',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': null,
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '06',
+      'assetKndNm': 'ccc',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': null,
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '07',
+      'assetKndNm': '哈哈',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': null,
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '09',
+      'assetKndNm': '9090',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': null,
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '10',
+      'assetKndNm': '五菱',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': null,
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '11',
+      'assetKndNm': '领克',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': null,
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '12',
+      'assetKndNm': '凯励程',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': null,
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '13',
+      'assetKndNm': '啊啊啊',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': null,
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '14',
+      'assetKndNm': 'aa2',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': null,
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '22',
+      'assetKndNm': 'dxx',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': null,
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '24',
+      'assetKndNm': '4553',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': null
+    },
+    'seriesInfo': null,
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '65',
+      'assetKndNm': 'XXXXXXXXX-TT',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': null
+    },
+    'seriesInfo': null,
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '71',
+      'assetKndNm': '71 - JY.SHIM Test Test',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': null,
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '72',
+      'assetKndNm': '72 - Mr.SHIM Test',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': null,
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '73',
+      'assetKndNm': '73 - JY.SHIM TEST',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': null,
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 2,
+      'assetKndCd': '87',
+      'assetKndNm': '78YUYUI',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': null,
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '88',
+      'assetKndNm': 'New Bran',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': null,
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': 'aa',
+      'assetKndNm': 'ww',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': null,
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': 'ae',
+      'assetKndNm': '测试工作流',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': null,
+    'modelInfo': null,
+    'assetInfo': null
+  }
+]
+
+const sySeriesKnds = [
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '01',
+      'assetKndNm': '吉利1',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '0101',
+      'assetKndNm': '熊猫',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': '01'
+    },
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '02',
+      'assetKndNm': '奇虎',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '0201',
+      'assetKndNm': '白猫',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': '02'
+    },
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '03',
+      'assetKndNm': '吉利',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '0301',
+      'assetKndNm': '安安',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': '03'
+    },
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '03',
+      'assetKndNm': '吉利',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '0302',
+      'assetKndNm': '嗷嗷',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': '03'
+    },
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '03',
+      'assetKndNm': '吉利',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '0399',
+      'assetKndNm': '顺风',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': '03'
+    },
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '04',
+      'assetKndNm': 'aaa1',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '0401',
+      'assetKndNm': 'cccccc',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': '04'
+    },
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '04',
+      'assetKndNm': 'aaa1',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '0422',
+      'assetKndNm': '站点 ',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': '04'
+    },
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '05',
+      'assetKndNm': 'eee',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '0501',
+      'assetKndNm': 'qqqq',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': '05'
+    },
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '06',
+      'assetKndNm': 'ccc',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '0601',
+      'assetKndNm': 'uuuuuu',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': '06'
+    },
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '11',
+      'assetKndNm': '领克',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '1101',
+      'assetKndNm': '01',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': '11'
+    },
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '12',
+      'assetKndNm': '凯励程',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '1201',
+      'assetKndNm': '凯励程1',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': '12'
+    },
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '65',
+      'assetKndNm': 'XXXXXXXXX-TT',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': null
+    },
+    'seriesInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '6501',
+      'assetKndNm': 'eerrrrr',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': '65'
+    },
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '65',
+      'assetKndNm': 'XXXXXXXXX-TT',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': null
+    },
+    'seriesInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '6511',
+      'assetKndNm': 'testd',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': '65'
+    },
+    'modelInfo': null,
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '72',
+      'assetKndNm': '72 - Mr.SHIM Test',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '7244',
+      'assetKndNm': 'TEST',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': '72'
+    },
+    'modelInfo': null,
+    'assetInfo': null
+  }
+]
+
+const syModelKnds = [
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '01',
+      'assetKndNm': '吉利1',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '0101',
+      'assetKndNm': '熊猫',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': '01'
+    },
+    'modelInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '01010001',
+      'assetKndNm': '1.0L 萌动版',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': '0101'
+    },
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '02',
+      'assetKndNm': '奇虎',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '0201',
+      'assetKndNm': '白猫',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': '02'
+    },
+    'modelInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '02010002',
+      'assetKndNm': '1.0L 飞虎版',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': '0201'
+    },
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '02',
+      'assetKndNm': '奇虎',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '0201',
+      'assetKndNm': '白猫',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': '02'
+    },
+    'modelInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '02014111',
+      'assetKndNm': '1.0L 企鹅版',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': '0201'
+    },
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '11',
+      'assetKndNm': '领克',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '1101',
+      'assetKndNm': '01',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': '11'
+    },
+    'modelInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '11010001',
+      'assetKndNm': '2.0T 6AT 纯',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': '1101'
+    },
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '12',
+      'assetKndNm': '凯励程',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': ''
+    },
+    'seriesInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '1201',
+      'assetKndNm': '凯励程1',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': '12'
+    },
+    'modelInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '12010001',
+      'assetKndNm': '1.0L 纯',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': '1201'
+    },
+    'assetInfo': null
+  },
+  {
+    'assetKndXtnInfos': [],
+    'brandInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '65',
+      'assetKndNm': 'XXXXXXXXX-TT',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': null
+    },
+    'seriesInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '6501',
+      'assetKndNm': 'eerrrrr',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': '65'
+    },
+    'modelInfo': {
+      'stsDscd': 1,
+      'assetKndCd': '65011111',
+      'assetKndNm': 'fdfdds',
+      'assetDstrbtPrity': 0,
+      'highAssetKndCd': '6501'
+    },
+    'assetInfo': null
+  }
+]
+
 const syAssetKnds = [
   {
     'assetKndXtnInfos': [
@@ -1165,4 +1889,4 @@ const syAssetKnds = [
   }
 ]
 
-export { syAssetKnds }
+export { syBrandKnds, sySeriesKnds, syModelKnds, syAssetKnds }

@@ -8,7 +8,7 @@ import { Message } from 'element-ui'
  * @param data 请求数据
  * @return {Promise<AxiosResponse<any> | {}>}
  */
-function requestURL ({ type = 'post', url, data }) {
+function request ({ type = 'post', url, data }) {
   let options = {
     url: url,
     method: type,
@@ -58,14 +58,27 @@ function requestURL ({ type = 'post', url, data }) {
     })
 }
 
+/**
+ * 做mock数据的
+ * @param {*} data 请求成功的数据
+ * @param {*} t 延时时间 默认1.5秒内
+ */
+function mock (data, t) {
+  return new Promise(function (resolve) {
+    t = t || Math.random() * 1500
+    setTimeout(resolve, t, data)
+  })
+}
+
 export default {
-  // requestURL的 快捷get请求
+  // request的 快捷get请求
   get: function ({ url, data }) {
-    return requestURL({ url, data, type: 'get' })
+    return request({ url, data, type: 'get' })
   },
-  // requestURL的 快捷post请求
+  // request的 快捷post请求
   post: function ({ url, data }) {
-    return requestURL({ url, data, type: 'post' })
+    return request({ url, data, type: 'post' })
   },
-  requestURL
+  mock,
+  request
 }

@@ -2,7 +2,12 @@ import Vue from 'vue'
 import {
   Button,
   Select,
-  Loading
+  Option,
+  Loading,
+  Container,
+  Header,
+  Main,
+  Input
 } from 'element-ui'
 import 'vue-i18n'
 import * as api from './api'
@@ -52,7 +57,12 @@ for (let key in api) {
 
 Vue.use(Button)
 Vue.use(Select)
+Vue.use(Option)
 Vue.use(Loading)
+Vue.use(Container)
+Vue.use(Header)
+Vue.use(Main)
+Vue.use(Input)
 
 // element-ui api引用
 Vue.prototype.$loading = function (options = {}) {
